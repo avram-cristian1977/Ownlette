@@ -1,0 +1,76 @@
+ul {
+    position: absolute;
+    top: -3vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+
+    padding:0
+}
+
+ul:hover {
+    top: 0px;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(247, 247, 197);
+    
+}
+
+.activeLink {
+    color: rgb(255, 148, 61);
+}
+
+.menuItemandIcon a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuItemandIcon i {
+    padding-top: 2vw;
+}
+
+.menuItemandIcon span {
+    padding-top: 2vw;
+}
+
+
+.menuItemandIcon > #userName {
+white-space: unset;
+}
+
+#greeting{
+  float: right;
+  margin: 1vw;
+}
+
+nav{
+    height: 10vw;
+}
+
+@media (max-width:900px) {
+    #greeting{
+
+       width:  15vw;
+      }
+}
+
+@media (max-width:400px) {
+#greeting{
+    font-size: 10px;
+}
+  
+  }
+

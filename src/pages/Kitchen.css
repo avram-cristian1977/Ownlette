@@ -1,0 +1,352 @@
+.cabinet {
+    background-image: url('../assets/images/w1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 60vw;
+    height: 7vw;
+    margin: auto;
+    margin-top: 1vw;
+    border-radius: 5px;
+    border: 1px rgb(104, 88, 0) solid;
+}
+
+.flowerWrapper {
+    position: absolute;
+    top: -3vw;
+    left: -3vw;
+    width: 10vw;
+}
+
+.flowerWrapper img {
+    width: 100%;
+}
+
+#drawer1 {
+    background-image: url('../assets/images/newwood1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(206, 192, 172); */
+    width: 20vw;
+    height: 8.5vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 0px 0px 5px 5px;
+    border: 1px rgb(104, 88, 0) solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+#drawer2 {
+    background-image: url('../assets/images/newwood1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20vw;
+    height: 8.5vw;
+    position: absolute;
+    left: 20vw;
+    border-radius: 0px 0px 5px 5px;
+    border: 1px rgb(104, 88, 0) solid;
+    box-sizing: border-box;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#drawer3 {
+    background-image: url('../assets/images/newwood1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20vw;
+    height: 8.5vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 0px 0px 5px 5px;
+    border: 1px rgb(104, 88, 0) solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#drawer1:hover,
+#drawer2:hover,
+#drawer3:hover {
+    height: 7.5vw;
+    transform: translateY(6.5vw);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.ingredients {
+    max-width: 18vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1vw;
+    
+
+
+}
+.ingredients-table {
+    max-width: 55vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1vw;
+    /* background-color: #7fffd4; */
+    flex-wrap: wrap;
+    margin: 0.5vw;
+
+
+}
+.ingredients-table img{
+    margin: 0.5vw;
+    width: 4vw;
+
+
+}
+.ingredients img {
+    margin: 0 0.5vw 0 0.5vw;
+    width: 2vw;
+}
+
+.ingredients img:hover {
+    transform: scale(1.5);
+}
+
+.ingredientsCategory {
+    color: rgba(58, 9, 0, 0.8);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1vw;
+    margin: 0;
+    background-color: rgb(235, 235, 195);
+    width: 20vw;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+    box-sizing: border-box;
+    border-top: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+
+}
+
+
+.ingredientsTitle {
+    background-color: rgb(61, 35, 1);
+    padding: 3px;
+    border-radius: 2px;
+    margin: 0;
+    margin-top: 7px;
+    color: rgb(252, 241, 223);
+    font-size: 0.7vw;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ingredientBox {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.ingredientBox:active {
+
+   transform: scale(1.1);
+
+}
+
+.book {
+    background-image: url('../assets/images/leather.jpg');
+    background-size: cover;
+    position: absolute;
+    width: 4vw;
+    height: 6vw;
+    top: 1vw;
+    right: 2vw;
+    background-color: chocolate;
+    transform: rotate(25deg);
+    border-radius: 6px 3px 3px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.book h6 {
+    margin: 0;
+    text-align: center;
+    font-size: 0.8vw;
+}
+
+.foodImageWrapper {
+    width: 3vw;
+
+}
+
+.foodImageWrapper img {
+    width: 100%;
+    border-radius: 30%;
+    filter: blur(0.2px);
+}
+
+.foodImageWrapper:hover{
+    cursor: pointer;
+}
+
+.workingTable {
+    background-image: url("../assets/images/table2.jpg");
+    position: absolute;
+    width: 70vw;
+    height: 70vw;
+    top: 30vw;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    
+}
+
+.ingredientTableBox {
+    width: 6.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 6px 3px 6px;
+    background-color: rgb(235, 235, 195);
+    border-radius: 5px;
+    border: 1px solid rgb(61, 35, 1);;;
+  
+
+
+}
+
+.fa-arrow-alt-circle-up {
+
+    color: rgb(126, 13, 13);
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 1.5vw;
+
+}
+.fa-arrow-alt-circle-up:hover{
+    cursor: pointer;
+}
+
+.tableIngredientsTitle {
+    background-color: rgb(61, 35, 1);
+    padding: 3px;
+    border-radius: 2px;
+    margin: 0.3vw;
+    padding: 2px;
+    color: rgb(252, 241, 223);
+    font-size: 1vw;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 5.5vw;
+    text-align: center;
+}
+
+
+.tableIngredientsQuantity{
+    background-color: rgb(61, 35, 1);
+    padding: 3px;
+    border-radius: 2px 2px 5px 5px;
+    margin: 0.3vw;
+    padding: 2px;
+    color: rgb(252, 241, 223);
+    font-size: 1vw;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 5.5vw;
+    text-align: center;
+}
+
+.bump{
+animation: bump 300ms ease-out;
+}
+.blackboard{
+    font-size: 1.8vw;
+    color:rgb(241, 241, 241);
+    width: 5vw;
+    height: 10vw;
+    background-color: rgb(27, 27, 27);
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 3px 3px 13px black;
+    transform: rotate(-25deg);
+}
+
+.blackboard p{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.totalKcalWrapper{
+    position: absolute;
+    top:0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10vw;
+
+}
+
+@keyframes bump {
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(0.9);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.15);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media (max-width:1000px) {
+    .ingredientsTitle {
+
+        padding: 0.1vw;
+        border-radius: 1px;
+        margin: 0;
+        margin-top: 0.5vw;
+    }
+
+    .workingTable {
+       
+        width: 80vw;
+       
+    }
+
+}

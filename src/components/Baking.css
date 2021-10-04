@@ -1,0 +1,167 @@
+.bakingContainer {
+  position: absolute;
+  background-color: rgb(235, 235, 195);
+  width: 15vw;
+  top: 15vw;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0px 0px 5px;
+  border-left:1px solid rgba(58, 9, 0, 0.8);
+  border-top:1px solid rgba(58, 9, 0, 0.8);
+  border-bottom:1px solid rgba(58, 9, 0, 0.8);
+}
+
+.timerWrapper {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 0.5vw;
+  width: 5vw;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #c6e2ff;
+  text-shadow:
+    0 0 2px rgba(202, 228, 225, 0.92),
+    0 0 10px rgba(202, 228, 225, 0.34),
+    0 0 4px rgba(30, 132, 242, 0.52),
+    0 0 7px rgba(30, 132, 242, 0.92),
+    0 0 11px rgba(30, 132, 242, 0.78),
+    0 0 16px rgba(30, 132, 242, 0.92);
+  font-size: 1.5vw;
+}
+
+.startStopBtn {
+  margin: 10px 0 10px 0;
+  font-size: 1.5vw;
+  background-color: black;
+  height: 5vw;
+  width: 5vw;
+  text-align: center;
+  border-radius: 50%;
+  padding: 1vw;
+  color: #c6e2ff;
+  text-shadow:
+    0 0 2px rgba(202, 228, 225, 0.92),
+    0 0 10px rgba(202, 228, 225, 0.34),
+    0 0 4px rgba(30, 132, 242, 0.52),
+    0 0 7px rgba(30, 132, 242, 0.92),
+    0 0 11px rgba(30, 132, 242, 0.78),
+    0 0 16px rgba(30, 132, 242, 0.92);
+  border: none;
+  outline: none;
+}
+
+.resetBtn{
+  margin:1vw;
+  font-size: .8vw;
+  background-color: black;
+  height: 2vw;
+  width: 4vw;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2px;
+  color: #ffcec6;
+  text-shadow:
+    0 0 2px rgba(228, 202, 202, 0.92),
+    0 0 10px rgba(202, 228, 225, 0.34),
+    0 0 4px rgba(242, 30, 30, 0.52),
+    0 0 7px rgba(242, 30, 30, 0.92),
+    0 0 11px rgba(242, 30, 30, 0.78),
+    0 0 16px rgba(242, 30, 30, 0.92);
+  border: none;
+  outline: none;
+}
+
+.startStopBtn:active {
+  transform: translate(1px, -1px);
+}
+
+.tableRecipe{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5vw;
+  margin-left: 2vw;
+  padding: 2vw;
+  background-image: url('../assets/images/paper.jpg');
+  box-shadow: 1px 1px 9px rgb(29, 29, 29);
+  background-size: cover;
+  width: 25%;
+  color: black;
+  transform: rotate(-5deg);
+  
+}
+
+.tableRecipe p{
+  margin: 0;
+}
+
+
+.fa-check{
+  background-color: none;
+  color: rgb(3, 70, 3);
+}
+
+#saveToTheRecipeBookBtn{
+  background: none;
+  outline: none;
+  border:none;
+  font-size: 4vw;
+}
+
+#saveToTheRecipeBookBtn:hover{
+cursor: pointer;
+}
+
+#saveToTheRecipeBookBtn:active{
+ transform: scale(1.2);
+  }
+
+.recipeTitle input{
+   background: none;
+   border-bottom: 1px black dashed;
+   width: 90%;
+   font-family: 'Shadows Into Light', cursive;
+   outline: none;
+   font-size: 1.5vw;
+  font-weight: bolder;
+
+}
+
+.conclusions{
+  width: 80%;
+  margin: auto;
+  margin-top: 2vw;
+  border: 1px solid rgba(58, 9, 0);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 235, 195);
+  color:  rgba(58, 9, 0);
+  margin-bottom: 2vw;
+}
+
+.conclusions p{
+  margin:0;
+}
+
+.conclusions p:last-child{
+  margin-bottom: 20px;
+}
+
+.bakingMessageWrapper{
+  display: flex;
+  justify-content: center;
+
+}
+
+.bakingMessageWrapper p{
+  border: 1px solid rgba(58, 9, 0);
+  border-radius: 5px;
+  padding: 1vw;
+  background-color: rgb(235, 235, 195);
+  color:  rgba(58, 9, 0);
+}

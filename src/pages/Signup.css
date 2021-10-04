@@ -1,0 +1,212 @@
+.formWrapper {
+    margin-top:100px;
+
+}
+
+form {
+
+    position: relative;
+    width: 37vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(247, 247, 192);
+    font-family: 'Gruppo', cursive;
+
+    font-size: 2vw;
+}
+
+.validationMsg {
+    /* position: absolute;
+    text-align: center;
+    bottom:15vw; */
+    color: red;
+}
+
+form>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+input {
+    background-color: rgb(247, 247, 192);
+    border: none;
+}
+
+#chefname label {
+
+    position: absolute;
+    top: 0;
+    left: -200px;
+    animation: moveFromLeftToRight 0.5s forwards;
+    animation-delay: 0s;
+}
+
+#chefname input {
+    width: 12vw;
+    outline: none;
+    padding-left: 5px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    animation: moveFromRightToLeft 0.5s forwards;
+    animation-delay: 0s;
+
+}
+
+#chefemail label {
+    position: absolute;
+    top: 40px;
+    left: -200px;
+    animation: moveFromLeftToRight 0.5s forwards;
+    animation-delay: 0.2s;
+}
+
+#chefemail input {
+    width: 12vw;
+    outline: none;
+    padding-left: 5px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    right: -200px;
+    animation: moveFromRightToLeft 0.5s forwards;
+    animation-delay: 0.2s;
+}
+
+#password label {
+    position: absolute;
+    top: 80px;
+    left: -200px;
+    animation: moveFromLeftToRight 0.5s forwards;
+    animation-delay: 0.4s;
+}
+
+#password input {
+    width: 12vw;
+    outline: none;
+    padding-left: 5px;
+    height: 20px;
+    position: absolute;
+    top: 80px;
+    right: -200px;
+    animation: moveFromRightToLeft 0.5s forwards;
+    animation-delay: 0.4s;
+}
+
+#confirmPassword label {
+    position: absolute;
+    top: 120px;
+    left: -200px;
+    animation: moveFromLeftToRight 0.5s forwards;
+    animation-delay: 0.6s;
+
+}
+
+#confirmPassword input {
+    width: 12vw;
+    outline: none;
+    padding-left: 5px;
+    height: 20px;
+    position: absolute;
+    top: 120px;
+    right: -200px;
+    animation: moveFromRightToLeft 0.5s forwards;
+    animation-delay: 0.6s;
+}
+
+.signUpBtnWrapper {
+    position: relative;
+    animation: moveUpBtn 1.5s forwards;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+#signUpEggImg,
+#signInEggImg {
+    position: absolute;
+    width: 5vw;
+    height: 8vw;
+    top: 0px;
+    left: 50%;
+}
+
+#signUpEggImg:hover,
+#signInEggImg:hover,
+.fa-user-plus:hover,
+.fa-sign-in-alt:hover {
+    cursor: pointer;
+}
+
+#signUpEggImg:active,
+#signInEggImg:active,
+.fa-user-plus:active,
+.fa-sign-in-alt:active {
+    cursor: pointer;
+    transform: translate(1px,1px);
+}
+
+
+#signInEggImg {
+    top: -5vw;
+}
+
+
+
+#signInBtnTxt {
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: -3.7vw;
+    left: 20.1vw;
+    font-size: 2vw;
+}
+
+#signUpBtnTxt {
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 1vw;
+    left: 20.1vw;
+    font-size: 2vw;
+}
+
+#signInBtn {
+    top: -30px;
+}
+
+#signUpBtn:hover {
+    cursor: pointer;
+
+}
+
+#signUpBtn:active {
+    transform: translate(1px, 1px)
+}
+
+.validationMsgWrapper {
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes moveFromLeftToRight {
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+@keyframes moveFromRightToLeft {
+    100% {
+        transform: translateX(-200px);
+    }
+}
+
+@keyframes moveUpBtn {
+    100% {
+        transform: translateY(150px);
+    }
+}

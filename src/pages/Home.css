@@ -1,0 +1,143 @@
+.eggImgWrapper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, rgba(255, 255, 255, 0.22));
+    align-items: baseline;
+    position: relative;
+}
+
+#eggImg {
+    width: 120px;
+}
+
+.eggImgWrapper img {
+    display: 70%;
+}
+
+.homeTxtWrapper {
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.homeTxtWrapper p {
+    margin: 0;
+}
+
+.pan {
+    width: 28vw;
+    height: 5vw;
+}
+
+#panLeft {
+    transform: scaleX(-1);
+    margin-right: 50px;
+    filter: blur(0.4px);
+}
+
+#panRight {
+    margin-left: 80px;
+    filter: blur(0.5px);
+}
+
+#parsley {
+    width: 2vw;
+}
+
+.goodlist p{
+    position: absolute;
+    left:76vw;
+    font-size: 2vw;
+    color: rgb(207, 248, 152);
+    
+    margin: 0;
+}
+
+#h-n{
+    opacity: 0;
+    top:0;
+    animation: pumpRtoL 0.5s ease forwards;
+    animation-delay: 0s;
+}
+
+#w-c{
+    opacity: 0;
+    top:50px;
+    animation: pumpRtoL 0.5s ease forwards;
+    animation-delay: 0.5s;
+}
+
+#e-s{
+    opacity: 0;
+    top:100px;
+    animation: pumpRtoL 0.5s ease forwards;
+    animation-delay: 1s;
+}
+
+#g-c{
+    opacity: 0;
+    top:150px;
+    animation: pumpRtoL 0.5s ease forwards;
+    animation-delay: 1.5s;
+}
+#s-h{
+    opacity: 0;
+    top:200px;
+    animation: pumpRtoL 0.5s ease forwards;
+    animation-delay: 2s;
+}
+@keyframes pumpRtoL {
+
+    100%{
+        opacity: 1;
+        transform: translateX(-15vw);
+    }
+}
+
+@media (max-width:600px) {
+
+    
+#eggImg {
+    width: 120px;
+}
+    .pan {
+        width: 20vw;
+        height: 4vw;
+    }
+    .goodlist p{
+        
+        font-size: 15px;
+        margin: 20px;
+     ;
+    }
+    #panLeft {
+        transform: scaleX(-1);
+        margin-right: 10px;
+        filter: blur(0.4px);
+    }
+    
+    #panRight {
+        margin-left: 30px;
+        filter: blur(0.5px);
+    }
+  }
+
+
+  @media (max-width:400px) {
+    #panLeft {
+        transform: scaleX(-1);
+        margin-right: 0px;
+       
+    }
+    
+    #panRight {
+        margin-left: 20px;
+        filter: blur(0.5px);
+    }
+  
+  }

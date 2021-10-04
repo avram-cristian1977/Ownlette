@@ -1,0 +1,52 @@
+.recipesModal {
+    background-image: url('../assets/images/recipeBookPaper.jpg');
+    font-family: 'Shadows Into Light', cursive;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    transform: rotate(-25deg);
+    width: 20vw;
+    height: 10vw;
+    background-size: cover;
+    color: rgb(2, 1, 59);
+    font-size: 0.9vw;
+    border-radius: 5px 5px;
+    margin: 0.3vw;
+    padding: 5px;
+    background-color: rgb(235, 235, 195);
+    word-wrap: break-word;
+}
+
+.recipesModal p {
+    margin: 0px;
+
+}
+.recipesModal p{
+    margin-top: 2px;
+
+}
+
+.recipesModal span {
+    margin: 0;
+}
+
+.bakingTime {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.closeModalBtn{
+    background: none;
+    border:none;
+    outline: none;
+    position: absolute;
+    bottom:0.4vw ;
+    right: 0.2vw;
+    
+}
+
+.closeModalBtn:hover{
+    color: brown;
+}

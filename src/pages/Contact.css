@@ -1,0 +1,73 @@
+.userDataFormContainer{
+   
+    font-family: 'Gruppo', cursive;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+input{
+    padding-left: 10px;
+    width: 20vw;
+}
+
+textarea{
+    margin-top: 20px;
+    background-color: rgb(235, 235, 195);
+    border-radius:5px ;
+}
+
+.sendMsgBtn{
+    width: 100px;
+    margin: auto;
+    font-family: 'Gruppo', cursive;
+    margin-top: 20px;
+    background-color: rgb(235, 235, 195);
+    padding: 10px;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    border:none;
+    font-weight: bolder;
+
+
+}
+.messageSent{
+    text-align: center;
+}
+
+.contactWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translate(-50%);
+    font-size: 15px;
+
+}
+
+.contactWrapper p{
+    margin: 1px;
+}
+
+.contactWrapper h2{
+    margin: 0px;
+}
+
+.contactWrapper i {
+    margin: 0 5px 0 5px
+}
+
+
+@media screen and (max-width: 600px) {
+    .contactWrapper{
+      
+        font-size: 10px;
+    
+    }
+    
+}

@@ -1,0 +1,9 @@
+.pumpElementsList{
+    color: white;
+
+    background-color: tomato;
+  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
